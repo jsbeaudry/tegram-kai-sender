@@ -51,22 +51,3 @@ app.listen(port, () => {
 
 
 
-
-// Download the helper library from https://www.twilio.com/docs/node/install
-// Find your Account SID and Auth Token at twilio.com/console
-// and set the environment variables. See http://twil.io/secure
-// const accountSid = 'ACee7ce1cda2a8d6c90906c2b874257915'//process.env.TWILIO_ACCOUNT_SID;
-// const authToken = 'cff86398ae5bd3d30621849582a77459'//process.env.TWILIO_AUTH_TOKEN;
-// const client = require('twilio')(accountSid, authToken);
-
-// client.calls
-//       .create({
-//          url: 'http://demo.twilio.com/docs/voice.xml',
-//          to: '+18096618345',
-//          from: '+17252285479'
-//        })
-//       .then(call => console.log(call.sid)).catch(err=>{
-//           console.log(err);
-//       });
-
-
